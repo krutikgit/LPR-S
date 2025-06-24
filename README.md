@@ -50,9 +50,9 @@ This research contributes a scalable and adaptive framework for intelligent traf
 
 ---
 
-## Research
+## Publication
 
-**[Reserach Paper Publication](https://pubs.aip.org/aip/acp/article-abstract/2794/1/020020/2914513/An-adaptive-license-plate-recognition-framework?redirectedFrom=fulltext)**
+**[Reserach Paper](https://pubs.aip.org/aip/acp/article-abstract/2794/1/020020/2914513/An-adaptive-license-plate-recognition-framework?redirectedFrom=fulltext)**
 
 If you use this work in your research, please cite:
 
