@@ -1,4 +1,4 @@
-# Adaptive License Plate Recognition and Speed Estimation Framework
+# An adaptive License Plate Recognition Framework for Moving Vehicles
 
 ## Overview
 
@@ -6,8 +6,7 @@ This project presents an adaptive framework for **vehicle speed estimation** and
 
 The framework combines state-of-the-art deep learning models and computer vision techniques to process video input and deliver high-accuracy results in real-time environments.
 
-Published as a research paper in **AIP Conference Proceedings**:  
-**[An adaptive license plate recognition framework for Indian roads](https://pubs.aip.org/aip/acp/article-abstract/2794/1/020020/2914513/An-adaptive-license-plate-recognition-framework?redirectedFrom=fulltext)**
+**[Reserach Paper Publication](https://pubs.aip.org/aip/acp/article-abstract/2794/1/020020/2914513/An-adaptive-license-plate-recognition-framework?redirectedFrom=fulltext)**
 
 ---
 
@@ -33,7 +32,7 @@ Published as a research paper in **AIP Conference Proceedings**:
 
 ## Dataset
 
-- 100 real-world vehicle images captured from Indian roads.
+- 100+ real-world vehicle images and videos captured manually from Indian roads.
 - 34,575 multi-styled license plate alphanumeric characters for training and evaluation.
 
 ---
@@ -41,7 +40,7 @@ Published as a research paper in **AIP Conference Proceedings**:
 ## Performance
 
 - **Speed Estimation Accuracy**: Absolute error of **0.98 km/h**
-- **License Plate Recognition Accuracy**: Achieved **90%** accuracy using ResNet50
+- **License Plate Recognition Accuracy**: Achieved **90%** accuracy using MobileNet
 
 ---
 
@@ -51,27 +50,24 @@ This research contributes a scalable and adaptive framework for intelligent traf
 
 ---
 
-## Future Work
-
-- Incorporating **low-light and low-resolution surveillance footage**
-- Extending the model to handle **partial and obscured license plates**
-- Enhancing support for various regional license plate formats
-
----
-
 ## Citation
 
 If you use this work in your research, please cite:
 
 ```bibtex
-@inproceedings{singh2023adaptive,
-  title={An adaptive license plate recognition framework for moving vehicles},
-  author={Singh, Guruanjan and Mehta, Krutik and Mishra, Apoorva and Chawla, Harnish and Shekokar, Narendra},
-  booktitle={AIP Conference Proceedings},
-  volume={2794},
-  number={1},
-  year={2023},
-  organization={AIP Publishing}
+@article{10.1063/5.0165667,
+    author = {Singh, Guruanjan and Mehta, Krutik and Mishra, Apoorva and Chawla, Harnish and Shekokar, Narendra},
+    title = {An adaptive license plate recognition framework for moving vehicles},
+    journal = {AIP Conference Proceedings},
+    volume = {2794},
+    number = {1},
+    pages = {020020},
+    year = {2023},
+    month = {10},
+    issn = {0094-243X},
+    doi = {10.1063/5.0165667},
+    url = {https://doi.org/10.1063/5.0165667},
+    eprint = {https://pubs.aip.org/aip/acp/article-pdf/doi/10.1063/5.0165667/18153233/020020\_1\_5.0165667.pdf},
 }
 ```
 
