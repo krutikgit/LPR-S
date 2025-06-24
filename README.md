@@ -6,8 +6,6 @@ This project presents an adaptive framework for **vehicle speed estimation** and
 
 The framework combines state-of-the-art deep learning models and computer vision techniques to process video input and deliver high-accuracy results in real-time environments.
 
-**[Reserach Paper Publication](https://pubs.aip.org/aip/acp/article-abstract/2794/1/020020/2914513/An-adaptive-license-plate-recognition-framework?redirectedFrom=fulltext)**
-
 ---
 
 ## Key Features
@@ -22,10 +20,12 @@ The framework combines state-of-the-art deep learning models and computer vision
 
 ## System Architecture
 
-1. **Object Detection**: YOLOv5 is applied to processed video streams to detect fast-approaching vehicles.
-2. **Speed Estimation**: Vehicle speed is estimated based on the distance covered over sequential frames.
-3. **License Plate Recognition**:
+1. **Video/Image Pre-processing**: The input data feed is extracted into frames, and each frame is passed through a collection of pre-processing techniques before being processed.
+2. **Object Detection**: YOLOv5 is applied to processed video streams to detect fast-approaching vehicles.
+3. **Speed Estimation**: Vehicle speed is estimated based on the distance covered over sequential frames.
+4. **License Plate Recognition**:
    - **Localization**: WPOD-NET is used to detect and crop license plates from vehicle images.
+   - **Character Segmentation**: To remove noise and irrelevant information.
    - **Character Recognition**: Pre-trained models (MobileNet, Xception, ResNet50) are evaluated for alphanumeric character extraction.
 
 ---
@@ -50,7 +50,9 @@ This research contributes a scalable and adaptive framework for intelligent traf
 
 ---
 
-## Citation
+## Research
+
+**[Reserach Paper Publication](https://pubs.aip.org/aip/acp/article-abstract/2794/1/020020/2914513/An-adaptive-license-plate-recognition-framework?redirectedFrom=fulltext)**
 
 If you use this work in your research, please cite:
 
